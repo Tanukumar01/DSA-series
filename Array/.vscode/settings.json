@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.wmls": "javascriptlite",
+        "ostream": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

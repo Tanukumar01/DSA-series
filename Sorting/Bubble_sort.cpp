@@ -11,7 +11,7 @@ void bubbleSort( int arr[], int n ){
             swap(arr[j],arr[j+1]);
         }
         } 
-    }
+    }   
 }
 void printArray(int arr[],int n ){
 
@@ -23,7 +23,7 @@ void printArray(int arr[],int n ){
 }
 int main(){
     int  n= 5;
-    int arr[n]= {1,4,2,3,5};
+    int arr[n]= {2,0,2,1,1,0};
 
     bubbleSort(arr,n);
     printArray(arr,n);

@@ -22,7 +22,7 @@ void insertAtHead(Node* &head, int d){ // refernce is used because i does not to
 
 void insertAtPosition(Node* &head, int position, int d){
    
-    if(position==1){
+    if(position==1){  // when you want to insert at 1st position
         insertAtHead(head,d);
         return;
     }
